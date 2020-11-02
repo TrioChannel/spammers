@@ -1,0 +1,60 @@
+#Ngapain boss?
+#mau gua ajarin
+#usr/bin/bash
+clear
+figlet TRIO | lolcat
+echo ".......................................... "
+echo " AUTHOR : TRIO "
+echo " YOUTUBE : TRIO CHANNEL "
+echo " SUBCRIBE•LIKE•COMENT "
+echo ".......................................... "
+echo
+echo "[1],SPAM CALL 1"
+echo "[2],SPAM CALL 2"
+echo "[3],SPAM BRUTAL SMS"
+echo "[4],SPAM UNLIMITED SMS"
+echo "[5],SPAM SMS/WA"
+echo
+echo "TRIO CHANNEL"
+   read -p " | TRIO :SPAM: " pil :
+
+#Batas gan
+if [ $pil = 1 ]
+then
+git clone https://github.com/termuxandi/spamtelphone
+cd spamtelphone
+ls
+python Blackphone
+fi
+#Batas gan
+if [ $pil = 2 ]
+then
+git clone https://github.com/termuxandi/spam-termux
+cd spam-termux
+ls
+python SpamC.py
+fi
+#Batas gan
+if [ $pil = 3 ]
+then
+git clone https://github.com/IL4NGQW3R/brutalspammer
+cd brutalspammer
+ls
+python BrutalSpammer.py
+fi
+#Batas gan
+if [ $pil = 4 ]
+then
+git clone https://github.com/4L13199/LITESPAM.git
+cd LITESPAM
+ls
+sh LITESPAM.sh
+fi
+#batas gan
+if [ $pil = 5 ]
+then
+git clone https://github.com/KANG-NEWBIE/SpamSms
+cd SpamSms
+ls
+python main.py
+fi
